@@ -1,0 +1,15 @@
+cgpa = float(input("Enter your CGPA: "))
+tenth = float(input("Enter your Tenth percentage: "))
+twelfth = float(input("Enter your Twelfth percentage: "))
+
+if (cgpa >=7.5):
+    if (tenth >= 80):
+        if (twelfth >= 80):
+            print("Eligible for placement")
+        else:
+            print("Not eligible for placement due to twelfth marks")
+    else:
+        print("Not eligible for placement due to tenth marks")
+else:
+    print("Not eligible for placement due to CGPA")            
+
